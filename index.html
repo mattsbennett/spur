@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Raleway:600' rel='stylesheet' type='text/css'>
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    </head>
+    <body class="noScroll">
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div id="loading-overlay" class="noScroll">
+            <div class="block">
+                <div class="centered-loader">
+                    <img src="img/loader.svg" draggable="false" class="loading">
+                </div>
+            </div>
+        </div>
+        <div id="confirmation-overlay" class="noScroll" style="display: none">
+            <div id="bottle-cap">
+                <img id="bottle-cap-img" draggable="false" src="img/bottlecapbackground.png">
+            </div>
+
+            <div class="block">
+                <div class="centered">
+                    <img src="img/spurlogo.svg" draggable="false" class="logotype">
+                    <p>Are you of legal drinking age in your country/state of residence?</p>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="checkbox-yes" id="checkbox-yes" class="css-checkbox" autocomplete="off">
+                                    <label for="checkbox-yes" class="css-label">Yessir</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="checkbox-no" id="checkbox-no" class="css-checkbox" autocomplete="off">
+                                    <label for="checkbox-no" class="css-label">Nope</label>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div id="road-ahead-overlay" class="noScroll" style="display: none">
+            <div id="header">
+                <div id="message-top">
+                    <img draggable="false" src="img/message-1.svg">
+                </div>
+            </div>
+            <div id="footer">
+                <div id="message-bottom">
+                    <img src="img/spurlogo.svg" class="logotype-road-ahead" draggable="false" >
+                </div>
+            </div>
+        </div>
+        <div id="main" class="invisible">
+            <div id="header-main">
+                <img src="img/headermainlogo.svg" class="header-main-logo" draggable="false" >
+            </div>
+            <div id="spur">
+                <div id="bottles">
+                    <img src="img/bottlemockup1.png" draggable="false">
+                </div>
+                <div id="bottles-icon">
+                    <img src="img/spur.svg" draggable="false">
+                </div>
+                <div class="text">
+                    <h1>Spur Ale: A Truly Original Recipe</h1>
+                    <p>A smooth, rich nut brown ale with accents of dark chocolate, dark roast coffee and licorice. Made with 100% malted sorghum, Spur Ale takes inspiration and flavour from 1800s western North American frontier life where nights were often spent under the stars; a time when life was simpler and often experienced from a saddle.</p>
+                </div>
+            </div>
+            <div id="story">
+                <div id="story-icon">
+                    <img src="img/story.svg" draggable="false">
+                </div>
+                <div class="text-light">
+                    <h1>Our Story</h1>
+                    <p>Just like a great story or laugh shared around a campfire, we believe a delicious drink becomes more than the sum of its ingredients when shared with friends and loved ones. As celiacs, we missed sharing a delicious beer with our friends and loved ones. We quickly grew tired of generic-tasting gluten free beers like they were tedious stories we had heard around the fire one too many times. After three years of development and refinement, Spur Nut Brown Sorghum Ale was born in 2014 - and we've been sharing great stories ever since. Share your Spur story today:</p>
+                    <br>
+                    <p>
+                        <img src="img/facebottle.svg" draggable="false" class="social">
+                        <img src="img/twitbottle.svg" draggable="false" class="social">
+                        <img src="img/pinterestbottle.svg" draggable="false" class="social">
+                        <img src="img/youtubottle.svg" draggable="false" class="social">
+                        <img src="img/g+bottle.svg" draggable="false" class="social">
+                    </p>
+                </div>
+                
+            </div>
+            <div id="gluten-free">
+                <div id="gluten-free-icon">
+                    <img src="img/glutenfree.svg" draggable="false">
+                </div>
+                <div class="text">
+                    <h1>Our Commitment to Gluten-Free</h1>
+                    <p>For some, living gluten-free is a matter of dietary choice, but for celiacs, a matter of dietary necessity. Choice or necessity, at Spur Ale, gluten-free is one of our founding values. We use 100% malted sorghum in our brewing process and never use any of our brewing and bottling equipment for brewing and bottling anything but sorghum-based brews. This allows us to gaurantee with 100% certainty that our Ale does not (and will never) contain gluten! Also, unlike most beers with a "chocolate" flavour that simply use a barley-based, gluten-containing chocolate malt, we actually use 100% gluten-free 72% dark chocolate, along with 100% gluten-free salted licorice and 100% gluten-free fresh ground dark roast coffee.</p>
+                </div>
+            </div>
+            <div id="locate">
+                <div id='map-canvas'></div>
+                <div id="locate-icon">
+                    <img src="img/locate.svg" draggable="false">
+                </div>
+                <div class="text">
+                    <h1>Interested? Find a bottle of Spur</h1>
+                </div>
+            </div>
+        </div>
+            
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>
